@@ -40,18 +40,6 @@ module.exports = {
       url: `https://kovan.infura.io/v3/${INFURA_PROJECT_ID}`,
       accounts: [`0x${PRIVATE_KEY}`]
     },
-    goerli: {
-      url: `https://goerli.infura.io/v3/${INFURA_PROJECT_ID}`,
-      accounts: [`0x${PRIVATE_KEY}`]
-    },
-    mumbai: {
-      url: `https://matic-mumbai.chainstacklabs.com`,
-      accounts: [`0x${PRIVATE_KEY}`]
-    },
-    matic: {
-      url: `https://matic-mainnet-full-rpc.bwarelabs.com`,
-      accounts: [`0x${PRIVATE_KEY}`]
-    },
     coverage: {
       url: 'http://localhost:8555',
     }

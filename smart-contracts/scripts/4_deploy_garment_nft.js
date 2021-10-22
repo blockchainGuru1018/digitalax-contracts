@@ -13,8 +13,7 @@ async function main() {
   const DigitalaxGarmentNFT = await ethers.getContractFactory('DigitalaxGarmentNFT');
   const garment = await DigitalaxGarmentNFT.deploy(
     ACCESS_CONTROLS_ADDRESS,
-    ERC1155_MATERIALS_ADDRESS,
-    '0xb5505a6d998549090530911180f38aC5130101c6'
+    ERC1155_MATERIALS_ADDRESS
   );
 
   await garment.deployed();
